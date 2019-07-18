@@ -1,4 +1,8 @@
 window.addEventListener('load', () => {
+    // gets rid of the preloader
+    const preload = document.querySelector('.preload');
+    preload.classList.add('preload-finish');
+
     const sounds = document.querySelectorAll('.sound');
     const pads = document.querySelectorAll('.pads div');
     const visual = document.querySelector('.visual');
